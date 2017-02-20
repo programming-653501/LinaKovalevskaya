@@ -1,3 +1,3 @@
 # LinaKovalevskaya
 
-#Lab1  1.2.11
+#Lab 1  (1.2.11)
