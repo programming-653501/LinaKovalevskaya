@@ -21,13 +21,9 @@ int** CreateArray(int** array, int rows, int columns);
 void ShowArray(int** array, int rows, int columns);
 
 void FillFromOneToDim(int *array, int dimension, int start_num); /* fills the array with consistent numbers from 1 to the dimension
-<<<<<<< HEAD
-																 of the array beginning from start_num */
-void GenerateStandardLatinSquare(int **array, int rows, int columns);
-=======
 								of the array beginning from start_num */
+void GenerateStandardLatinSquare(int **array, int rows, int columns);
 void GenerateStandardLatinSquare(int **array, int rows, int columns); 
->>>>>>> origin/master
 void GenerateLatinSquare(int** array, int rows, int columns); /* generates random latin square */
 
 
