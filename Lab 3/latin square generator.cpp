@@ -1,8 +1,8 @@
 
 #include "stdafx.h"
 #include <conio.h>
-#include <ctime>
-#include <iomanip>
+#include <time.h>
+#include <stdlib.h>
 #include <malloc.h>
 
 
@@ -22,23 +22,23 @@ void ShowArray(int** array, int rows, int columns);
 
 void FillFromOneToDim(int *array, int dimension, int start_num); /* fills the array with consistent numbers from 1 to the dimension
 																 of the array beginning from start_num */
-void GenerateStandardLatinSquare(int **array, int rows, int columns); 
+void GenerateStandardLatinSquare(int **array, int rows, int columns);
 void GenerateLatinSquare(int** array, int rows, int columns); /* generates random latin square */
 
 
 int main()
 {
-	int size, **square=NULL;
+	int size, **square = NULL;
 
 	printf("Enter size:\t");
 	EnterNaturalNumber(&size);
-
+	srand(time(NULL));
 	square = CreateArray(square, size, size);
 	GenerateLatinSquare(square, size, size);
 	ShowArray(square, size, size);
 
 	_getch();
-    return 0;
+	return 0;
 }
 
 
@@ -117,7 +117,7 @@ void ShuffleColumns(int** array, int rows, int columns)
 {
 	for (int i = columns - 1; i >= 1; i--)
 	{
-		int j = rand() % i + 0;
+		int j = rand() % (i + 1);
 		SwapColumns(array, rows, columns, i, j);
 	}
 }
@@ -126,7 +126,7 @@ void ShuffleRows(int** array, int rows, int columns)
 {
 	for (int i = rows - 1; i >= 1; i--)
 	{
-		int j = rand() % i + 0;
+		int j = rand() % (i + 1);
 		SwapRows(array, rows, columns, i, j);
 	}
 }
