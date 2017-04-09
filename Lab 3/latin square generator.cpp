@@ -191,3 +191,6 @@ void GenerateLatinSquare(int** array, int rows, int columns)
 
 
 
+
+
+
