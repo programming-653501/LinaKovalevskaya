@@ -11,3 +11,5 @@ Programming in C++, Rules and Recommendations
 http://www.doc.ic.ac.uk/lab/cplus/c%2b%2b.rules/
 
 Lab 4  (4.1.12, 4.2.12)
+
+Lab 5  (5.1.13)
