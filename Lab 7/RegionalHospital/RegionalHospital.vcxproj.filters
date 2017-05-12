@@ -98,7 +98,7 @@
     <ClCompile Include="ReceptionPatientForm.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="HospitalPro.cpp">
+    <ClCompile Include="RegionalHospital.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>

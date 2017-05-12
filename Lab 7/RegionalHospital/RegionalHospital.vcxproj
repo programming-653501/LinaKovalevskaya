@@ -177,7 +177,7 @@
     <ClCompile Include="Patient.cpp" />
     <ClCompile Include="PrescriptionsListItem.cpp" />
     <ClCompile Include="ReceptionPatientForm.cpp" />
-    <ClCompile Include="HospitalPro.cpp" />
+    <ClCompile Include="RegionalHospital.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

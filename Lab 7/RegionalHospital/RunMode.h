@@ -1,2 +1,2 @@
 
-#define FIRST_RUN 1
+#define FIRST_RUN 0
